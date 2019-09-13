@@ -3,6 +3,7 @@ Thumbs.db
 db.json
 *.log
 node_modules/
+prototype/.vuepress/dist
 public/
 .deploy*/
 src/_drafts
