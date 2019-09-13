@@ -7,7 +7,7 @@
   "scripts": {
     "start": "vuepress dev prototype",
     "start:hexo": "hexo server",
-    "build": "node pre-deploy.js && hexo clean && hexo generate",
+    "build": "vuepress build prototype",
     "build:hexo": "node pre-deploy.js && hexo clean && hexo generate",
     "deploy:hexo": "npm run build && hexo deploy"
   },
